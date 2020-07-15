@@ -17,6 +17,7 @@ to find out which restaurants are frequently visited together by same customers.
 
 
 ## Result
+![alt text](https://github.com/frozendrpepper/Spark-Frequent-Itemset-Analysis/blob/master/result.png?raw=true)
 * Why SON algorithm (over regular Apriori)? Single thread implementation of Apriori can be extremely slow and memory limiting when analyzing pairs of frequent items that occur together when analyzing over a larget dataset. An alternative algorithms such as PCY algorithm had been used to get around the memory issue. SON algorithm can be thought of as a Map Reduce approach to the Apriori algorithm and can utilize the multi-threaded nature and memory efficiency of Map-Reduce technology
 * As one can observe from result.png, there are clear patterns among restaurants that are frequently visited together
   ** Customers who visit Japanese/Asian restaurant are more likely to visit other Japanese/Asian restaurants
